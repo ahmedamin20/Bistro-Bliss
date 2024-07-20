@@ -8,7 +8,7 @@ const PagesSection = () => {
         <h4>Pages</h4>
         <div className='flex flex-row md:flex-col gap-[10px] md:gap-[15px]'>
 
-      {NavLinks.map(item=><Link className='text-text-grey' key={item.id} href={item.href}>{item.title}</Link>)}
+      {NavLinks.map(item=><Link className='text-text-grey hover:text-white transition-all' key={item.id} href={item.href}>{item.title}</Link>)}
         </div>
     </div>
   )
