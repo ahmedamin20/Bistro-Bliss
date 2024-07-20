@@ -8,7 +8,7 @@ import cn from "@/utils/cn";
 const LogoSection = () => {
     const iconSize = 20;
   return (
-    <div className="p-6 w-full md:w-1/3 flex flex-col gap-y-[20px]">
+    <div className="w-full md:w-1/3 flex flex-col gap-y-[20px]">
       <Image src={logo} loading="lazy" width={300} height={200} alt="logo" />
       <article className="text-text-grey">
         In the new era of technology we look a in the future with certainty and
