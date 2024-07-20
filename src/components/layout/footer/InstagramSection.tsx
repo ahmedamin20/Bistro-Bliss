@@ -26,6 +26,6 @@ interface TLinkImageProps{
 }
 
 const LinkImage = (props: TLinkImageProps)=>{
-    return <Image className='rounded-lg hover:blur-[1px] hover:shadow-lg transition-all duration-[750]' src={props.src} width={props.width || 200} height={props.height || 200} alt={props.alt||"image"}></Image>
+    return <Image loading='lazy' className='rounded-lg hover:blur-[1px] hover:shadow-lg transition-all duration-[750]' src={props.src} width={props.width || 200} height={props.height || 200} alt={props.alt||"image"}></Image>
   
 }
