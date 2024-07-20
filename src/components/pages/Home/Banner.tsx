@@ -14,11 +14,11 @@ const Banner = () => {
         sizes="( max-width: 1440px ) 100vw, 1440px"
         priority
       />
-      <div className="container w-full md:w-[30%] mx-auto text-center flex flex-col gap-5">
+      <div className="container w-full md:w-[30%] mx-auto text-center flex flex-col gap-[20px]">
         <h1 className="font-roboto text-[60px] leading-9">
           Best food for your taste
         </h1>
-        <p className="font-sans">
+        <p className="font-sans px-4">
           Discover delectable cuisine and unforgettable moments in our
           welcoming, culinary haven.
         </p>
