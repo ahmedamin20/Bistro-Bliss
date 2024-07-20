@@ -49,7 +49,7 @@ const Navbar = () => {
           {!isOpen ? <CiMenuFries className="font-bold" size={25} /> : <CgClose size={25} />}
         </button>
         <div>
-          <CustomButtonLink className="border" title="Book A Table" href={NavigationPaths.BOOK}/>
+          <CustomButtonLink className="border hidden" title="Book A Table" href={NavigationPaths.BOOK}/>
         </div>
       </div>
       <div

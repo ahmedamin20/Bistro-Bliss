@@ -1,11 +1,11 @@
 import type { Metadata, Viewport } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Playfair } from "next/font/google";
 import "./globals.css";
 import dynamic from "next/dynamic";
 
 const Footer = dynamic(() => import('@/components/layout/footer/Footer'), { ssr: false });
 const Navbar = dynamic(() => import('@/components/layout/navbar/Navbar'), { ssr: false });
-const inter = Inter({ subsets: ["latin"] });
+const inter = Playfair({ subsets: ["latin"] });
 
 export const metadata : Metadata = {
   title: 'Bistro Bliss',
@@ -49,7 +49,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Navbar/>
-        {children}
+          {children}
         <Footer />
         </body>
     </html>

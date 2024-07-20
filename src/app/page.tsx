@@ -1,9 +1,10 @@
-import Image from "next/image";
+import Banner from "@/components/pages/Home/Banner";
+
 
 export default function Home() {
   return (
-    <div className="w-full h-full overflow-hidden">
-      
+    <div className="w-full h-full overflow-x-hidden">
+      <Banner />
     </div>
   );
 }

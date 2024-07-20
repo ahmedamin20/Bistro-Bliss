@@ -5,7 +5,7 @@ import InstagramSection from './InstagramSection'
 
 const Footer = () => {
   return (
-    <footer className='relative bottom-0 w-full p-4 bg-grey-dark text-[#fff]'>
+    <footer className='w-full p-4 bg-grey-dark text-[#fff]'>
       <div className='p-6 w-full flex justify-between flex-col md:flex-row gap-[25px]'>
         <LogoSection/>
         <PagesSection />
