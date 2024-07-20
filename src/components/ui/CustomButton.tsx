@@ -12,7 +12,7 @@ export const CustomButtonLink = (props: TButtonLinkProps) => {
   return (
     <Link
       href={props.href}
-      className={cn("flex md:flex p-3 hover:bg-red font-[500] hover:text-[#ffff] transition-all duration-[.5s] rounded-3xl", props.className)}
+      className={cn("flex md:flex bg-transparent p-3 border-[1px] border-black hover:bg-red font-[500] hover:text-[#ffff] transition-all duration-[.5s] rounded-3xl", props.className)}
     >
       {props.title}
     </Link>

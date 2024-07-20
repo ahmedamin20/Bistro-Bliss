@@ -23,8 +23,8 @@ const Banner = () => {
           welcoming, culinary haven.
         </p>
         <div className="w-full md:w-2/3 p-2 flex flex-row justify-evenly mx-auto">
-          <CustomButtonLink className="bg-red text-[#fff] hover:bg-grey-light hover:text-[#000] border" href={NavigationPaths.BOOK} title="Book A Table"/>
-          <CustomButtonLink className="border" href={NavigationPaths.MENU} title="Explore Menu"/>
+          <CustomButtonLink className="bg-red text-[#fff] hover:bg-transparent hover:text-[#000] border" href={NavigationPaths.BOOK} title="Book A Table"/>
+          <CustomButtonLink href={NavigationPaths.MENU} title="Explore Menu"/>
         </div>
       </div>
     </div>
