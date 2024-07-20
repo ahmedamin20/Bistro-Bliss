@@ -9,7 +9,7 @@ const InstagramSection = () => {
       <h3>Follow Us On Instagram</h3>
       <Link href={""} className="flex flex-wrap flex-row w-full gap-[10px]">
       
-      {imagesArray.map(item=><LinkImage src={item.src} />)}
+      {imagesArray.map(item=><LinkImage key={item.id} src={item.src} />)}
       </Link>
     </div>
   )
