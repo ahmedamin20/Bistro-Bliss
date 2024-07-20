@@ -42,7 +42,7 @@ const SocialLink = (props: TSocialLinkProps) => {
   return (
     <Link
       href={props.href}
-      className={cn("bg-red text-[#fff] p-3 rounded-full", props.className)}
+      className={cn("bg-red w-fit text-[#fff] p-3 rounded-full", props.className)}
     >
       {props.children}
     </Link>
