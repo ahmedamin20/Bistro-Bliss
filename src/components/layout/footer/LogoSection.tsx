@@ -14,7 +14,7 @@ const LogoSection = () => {
         In the new era of technology we look a in the future with certainty and
         pride to for our company and.
       </article>
-      <dic className='w-full flex flex-row'>
+      <div className='w-full flex flex-row'>
       <SocialLink href="">
         <FaTwitter size={iconSize} />
       </SocialLink>
