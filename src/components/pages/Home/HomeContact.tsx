@@ -17,9 +17,9 @@ const HomeContact = () => {
           height={400}
           width={400}
           loading="lazy"
-          className=" rounded-xl z-[1]"
+          className=" rounded-xl z-[1] w-[70%]"
         />
-        <div className="flex z-[2] flex-col p-5 py-8 md:py-[3rem] left-[25%] md:left-[35%] top-[66%] md:top-[40%] w-[90%] md:w-[50%] rounded-3xl gap-[1rem] md:gap-[3rem] absolute bg-grey-dark text-white">
+        <div className="flex z-[2] flex-col p-5 py-8 md:py-[3rem] left-[25%] md:left-[35%] top-[66%] md:top-[60%] w-[90%] md:w-[50%] rounded-3xl gap-[1rem] md:gap-[3rem] absolute bg-grey-dark text-white">
           <h4 className="text-bold font-sans font-bold ">
             Contact and Visit us
           </h4>
