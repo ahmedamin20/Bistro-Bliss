@@ -9,7 +9,7 @@ const HomeContact = () => {
     iconSize = 20,
     email = "tc.supply6@gmail.com";
   return (
-    <div className="w-full flex flex-col bg-grey-light gap-y-[10rem] md:gap-y-0 md:flex-row justify-evenly flex-wrap overflow-hidden px-[3rem] py-[1rem] md:px-[4rem] md:py-[8rem]">
+    <div className="w-full flex flex-col bg-grey-light gap-y-[10rem] md:gap-y-0 md:flex-row justify-evenly flex-wrap overflow-hidden px-[3rem] py-[1rem] md:px-[4rem] md:py-[10rem]">
       <div className="w-full md:w-1/2 flex relative">
         <Image
           src={image}
