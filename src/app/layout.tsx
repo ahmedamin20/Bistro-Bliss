@@ -2,9 +2,10 @@ import type { Metadata, Viewport } from "next";
 import dynamic from "next/dynamic";
 import { Playfair } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/components/layout/navbar/Navbar";
+import Footer from "@/components/layout/footer/Footer";
 
-const Footer = dynamic(() => import('@/components/layout/footer/Footer'), { ssr: false });
-const Navbar = dynamic(() => import('@/components/layout/navbar/Navbar'), { ssr: false });
+
 const inter = Playfair({ subsets: ["latin"] });
 
 export const metadata : Metadata = {
