@@ -1,5 +1,5 @@
 import React from "react";
-import PageHeader from "./pageHeader";
+import PageHeader from "./PageHeader";
 
 const Menu = () => {
   return (
