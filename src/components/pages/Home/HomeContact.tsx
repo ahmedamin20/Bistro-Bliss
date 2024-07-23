@@ -1,15 +1,16 @@
 import image from "@/assets/home_ph/sec2.jpeg";
 import { CustomButtonLink } from "@/components/ui/CustomButton";
+import cn from "@/utils/cn";
 import Image from "next/image";
 import React from "react";
 import { BiPhone } from "react-icons/bi";
 import { CiLocationOn, CiMail } from "react-icons/ci";
-const HomeContact = () => {
+const HomeContact = ({className} : {className?: string}) => {
   const phone = "01147398918",
     iconSize = 20,
     email = "tc.supply6@gmail.com";
   return (
-    <div className="w-full flex flex-col bg-grey-light gap-y-[10rem] md:gap-y-0 md:flex-row justify-evenly flex-wrap overflow-hidden px-[3rem] py-[1rem] md:px-[4rem] md:py-[10rem]">
+    <div className={cn("w-full flex flex-col bg-grey-light gap-y-[10rem] md:gap-y-0 md:flex-row justify-evenly flex-wrap overflow-hidden px-[3rem] py-[1rem] md:px-[4rem] md:py-[10rem]", className)}>
       <div className="w-full md:w-1/2 flex relative">
         <Image
           src={image}
