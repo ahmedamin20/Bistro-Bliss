@@ -10,8 +10,8 @@ const MenuSection = () => {
   const [filter, setFilter] = useState(0);
   return (
     <div className='flex flex-col w-full gap-[20px]'>
-      <div className='flex flex-row justify-evenly items-center'>
-        {filterData.map(item =>  (<CustomButton key={item.id} className={`${item.id == filter && "bg-red text-white"}`} onClick={()=>setFilter(item.id)} title={item.name} />))}
+      <div className='flex flex-row justify-center gap-[20px] items-center mx-auto'>
+        {filterData.map(item =>  (<CustomButton key={item.id} className={`${item.id == filter && "bg-red text-white"} px-8`} onClick={()=>setFilter(item.id)} title={item.name} />))}
       </div>
       <div className='flex flex-col md:flex-row p-9 flex-wrap justify-evenly items-center'>
         {
@@ -19,14 +19,10 @@ const MenuSection = () => {
           (filter == DESHES_ENUM.ALL || item.type === filter) && 
           <MenuCard 
             key={item.title}
-            image={item.image}
-            title={item.title}
+            {...item}
             description={item.desc}
-            price={item.price}
-
           />)
         }
-        
       </div>
     </div>
   )
