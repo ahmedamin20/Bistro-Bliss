@@ -53,7 +53,7 @@ const HomeContact = ({className} : {className?: string}) => {
         <span className="my-4">
           Our story began with a vision to create a unique dining experience
           that merges fine dining, exceptional service, and a vibrant ambiance.
-          Rooted in city's rich culinary culture, we aim to honor our local
+          Rooted in city&apos;s rich culinary culture, we aim to honor our local
           roots while infusing a global palate.
           <p className="my-6">
             At place, we believe that dining is not just about food, but also
