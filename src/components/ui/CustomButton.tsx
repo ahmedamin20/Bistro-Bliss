@@ -1,3 +1,4 @@
+'use client'
 import cn from "@/utils/cn";
 import Link from "next/link";
 import React, { MouseEventHandler } from "react";
@@ -30,8 +31,8 @@ interface TButtonProps {
 export const CustomButton = (props: TButtonProps) => {
   return (
     <button
-      onClick={props.onClick}
-      className={cn("hidden md:flex bg-black p-3 rounded-2xl text-white", props.className)}
+      onClick={ e => props.onClick(e) }
+      className={cn("flex md:flex bg-transparent p-3 border-[1px] border-black hover:bg-red font-[500] hover:text-[#ffff] transition-all duration-[.5s] rounded-3xl", props.className)}
     >
       {props.title}
     </button>
