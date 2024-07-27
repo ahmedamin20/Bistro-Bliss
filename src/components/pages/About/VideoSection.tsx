@@ -18,9 +18,9 @@ const VideoSection = () => {
 
   return (
     <div className="w-full my-4">
-      <div className="relative h-[300px] w-full">
+      <div className="relative h-[500px] w-full">
         <video
-        onClick={handleClick}
+          onClick={handleClick}
           ref={videoRef}
           src={src}
           className="w-full h-full"
@@ -31,9 +31,12 @@ const VideoSection = () => {
         {!play && (
           <button
             onClick={handleClick}
-            className="top-0 justify-center items-center bg-black/25 w-full h-full absolute flex"
+            className="top-0 flex flex-col justify-center items-center bg-black/60 w-full h-full absolute"
           >
-            <FaPlay className="text-white/50 cursor-pointer" size={80} />
+            <span className="p-[2rem] rounded-full flex mb-5 bg-white justify-center items-center">
+            <FaPlay className="text-red cursor-pointer" size={15} />
+            </span>
+            <span className="font-roboto text-white font-bold text-[30px] w-full md:w-[25%]"> Feel the authentic & original taste from us</span>
           </button>
         )}
       </div>
