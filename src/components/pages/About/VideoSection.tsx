@@ -24,19 +24,17 @@ const VideoSection = () => {
           ref={videoRef}
           src={src}
           className="w-full h-full"
-          width={1000}
-          height={200}
           controls={false}
         />
         {!play && (
           <button
             onClick={handleClick}
-            className="top-0 flex flex-col justify-center items-center bg-black/60 w-full h-full absolute"
+            className="top-0 flex flex-col justify-center gap-[20px] items-center bg-black/60 w-full h-full absolute"
           >
-            <span className="p-[2rem] rounded-full flex mb-5 bg-white justify-center items-center">
+            <span className="p-[2rem] rounded-full flex bg-white justify-center items-center">
             <FaPlay className="text-red cursor-pointer" size={15} />
             </span>
-            <span className="font-roboto text-white font-bold text-[30px] w-full md:w-[25%]"> Feel the authentic & original taste from us</span>
+            <span className="font-roboto text-white font-bold text-[45px] w-full md:w-[30%]"> Feel the authentic & original taste from us</span>
           </button>
         )}
       </div>
