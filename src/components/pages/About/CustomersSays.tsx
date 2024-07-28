@@ -43,7 +43,7 @@ const Card = (props: TCardType) => {
   return (
     <div className="w-full my-3 md:w-[28%] rounded-2xl flex flex-row justify-between gap-[30px] p-9 flex-wrap items-center bg-grey-light">
       <div className="flex flex-col gap-[25px] justify-start items-start text-red font-[800] text-[17px]">
-        "{props.title}"
+      &quot;{props.title}&quot;
       </div>
       <div className="flex flex-col gap-[25px] justify-start items-start font-[500] text-grey-dark">
         {props.description}
