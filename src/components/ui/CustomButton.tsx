@@ -25,13 +25,13 @@ export const CustomButtonLink = (props: TButtonLinkProps) => {
 
 interface TButtonProps {
   title: string;
-  onClick: MouseEventHandler<HTMLButtonElement>;
+  onClick?: MouseEventHandler<HTMLButtonElement>;
   className?: string;
 }
 export const CustomButton = (props: TButtonProps) => {
   return (
     <button
-      onClick={ e => props.onClick(e) }
+      onClick={ e => props.onClick && props.onClick(e) }
       className={cn("flex md:flex bg-transparent p-3 border-[1px] border-black hover:bg-red font-[500] hover:text-[#ffff] transition-all duration-[.5s] rounded-3xl", props.className)}
     >
       {props.title}

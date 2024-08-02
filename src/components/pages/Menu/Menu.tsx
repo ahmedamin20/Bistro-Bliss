@@ -1,11 +1,12 @@
 import React from "react";
-import PageHeader from "./PageHeader";
 import MenuSection from "./MenuSection";
+import PageHeader from "@/components/ui/PageHeader";
 
 const Menu = () => {
   return (
     <div className="w-full flex flex-col gap-[15px]">
-      <PageHeader />
+      <PageHeader title="Our Menu" description="We consider all the drivers of change gives you the components you need
+        to change to create a truly happens."/>
       <MenuSection />
     </div>
   );
