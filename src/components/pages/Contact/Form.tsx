@@ -10,7 +10,7 @@ const Form = () => {
     <form
       ref={formRef}
       onSubmit={handleSubmit}
-      className="w-[90%] gap-y-[35px] md:w-[75%] top-[200px] mx-auto py-[4rem] px-9 grid grid-flow-row grid-cols-1 md:grid-cols-2 gap-4 rounded-lg shadow-lg bg-white"
+      className="w-[90%] gap-y-[35px] md:w-[75%] absolute top-[200px] mx-auto py-[4rem] px-9 grid grid-flow-row grid-cols-1 md:grid-cols-2 gap-4 rounded-lg shadow-lg bg-white"
     >
         <Input
         containerClassName="col-span-2 md:col-span-1"
