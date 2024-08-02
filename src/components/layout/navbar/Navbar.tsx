@@ -53,7 +53,7 @@ const Navbar = () => {
       </div>
       <div
         className={`p-4 flex absolute z-[999] bg-white/85 text-black w-full left-0 flex-col md:flex-row justify-center gap-y-[60px] transform h-[100%] transition-transform duration-[1s] ease-in-out ${
-          isOpen ? "translate-y-0" : "-translate-y-[100rem]"
+          isOpen ? "translate-y-0" : "-translate-y-[200rem]"
         }`}
       >
         {NavLinks.map((item) => (
