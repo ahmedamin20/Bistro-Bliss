@@ -1,6 +1,6 @@
 import Image, { StaticImageData } from "next/image";
 import React from "react";
-import image from "@/assets/home_ph/sec3.jpeg";
+import image from "@/assets/home_ph/sec2.jpeg";
 const OffersSection = () => {
   const data = [
     {
